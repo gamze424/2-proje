@@ -1,0 +1,89 @@
+.sl{
+    margin-top: -17px;
+}
+
+.carousel-caption{
+ bottom: 350px;
+  }
+.card{
+margin-top: 40px;
+}
+.card{
+    border:white;
+}
+body{
+    background: #eeeeee;
+}
+
+
+.btn {
+    background-color: #ff9f1c;
+    border-radius: 30px;
+    
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color:#d1a708;
+    color: white;
+  }
+  .navbar .nav-item:not(:last-child) {
+  margin-right: 20px;
+}
+ 
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+.yuk{
+  margin-left:1100px;
+  z-index:10;
+  width:50;
+  height:50;
+  border:radius:10px;
+  position:fixed; 
+  top:632px;
+   left:140px; 
+  margin-top:-40px;
+  }
+  
+  .pic{
+  position:fixed; 
+  top:632px;
+   left:1270px;
+      float:left;
+    margin-top:-60px;
+      height: 60px;
+      width: 60px;
+    margin-left:1150;
+      overflow: hidden;
+      background-image:url('https://s.tmimgcdn.com/img/chat-presales/en_10.png');
+      background-size:60px 60px;
+      border-radius: 100px;
+      -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+      box-shadow: 0 0 10px rgba(0,0,0,.3);
+  }
+  
+  .pic>img{
+      height:60px;
+      width:60px;
+      
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+      opacity:0;
+  }
+    
